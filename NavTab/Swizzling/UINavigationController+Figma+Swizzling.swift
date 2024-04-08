@@ -63,8 +63,6 @@ func setupUINavigationControllerFigmaSwizzling() {
       { nc in
         store.original(nc, store.selector)
 
-        let navigationBar = nc.navigationBar
-
         let figmaStatusBar = nc.figmaSubviews["figmaStatusBar"]!
         let figmaNavBar = nc.figmaSubviews["figmaNavBar"]!
         let figmaTopPadding = nc.figmaSubviews["figmaTopPadding"]!
@@ -76,9 +74,6 @@ func setupUINavigationControllerFigmaSwizzling() {
 
     //    // figma status bar height = 47, actual = 59
     //    // figma top padding = 16, actual top padding = 16 - 54-47
-        let topPadding: CGFloat = 16 - (statusBarHeight - 47)
-        let bottomPadding: CGFloat = 16
-    //
         let width = nc.view.frame.width
 
         figmaStatusBar.frame = CGRect(x: 0, y: 0, width: width, height: 47)
@@ -87,10 +82,6 @@ func setupUINavigationControllerFigmaSwizzling() {
         figmaBottomPadding.frame = CGRect(x: 0, y: figmaNavBar.frame.maxY, width: width, height: 16)
         figmaLeadingPadding.frame = CGRect(x: 0, y: 0, width: 20, height: figmaBottomPadding.frame.maxY)
         figmaTrailingPadding.frame = CGRect(x: width - 20, y: 0, width: 20, height: figmaBottomPadding.frame.maxY)
-
-        navigationBar.frame.origin.y = figmaNavBar.frame.minY + bottomPadding
-        navigationBar.yOffset = -bottomPadding
-        nc.additionalSafeAreaInsets.top = topPadding + bottomPadding
       }
     }
   }
