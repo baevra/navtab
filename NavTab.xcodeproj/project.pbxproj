@@ -10,9 +10,16 @@
 		8A77C99A2BBBD99300C3C07E /* NavTabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A77C9992BBBD99300C3C07E /* NavTabApp.swift */; };
 		8A77C99E2BBBD99400C3C07E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A77C99D2BBBD99400C3C07E /* Assets.xcassets */; };
 		8A77C9A12BBBD99400C3C07E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A77C9A02BBBD99400C3C07E /* Preview Assets.xcassets */; };
-		8A77C9A82BBBD9E800C3C07E /* CRNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A77C9A72BBBD9E800C3C07E /* CRNavigationController.swift */; };
+		8AB9DBD02BC3CC6400D40061 /* NavigationBackport in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB9DBCF2BC3CC6400D40061 /* NavigationBackport */; };
+		8AB9DBD32BC3CC7100D40061 /* InterposeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8AB9DBD22BC3CC7100D40061 /* InterposeKit */; };
+		8AB9DBD52BC3D06F00D40061 /* Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBD42BC3D06F00D40061 /* Appearance.swift */; };
+		8AB9DBD72BC3D08800D40061 /* Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBD62BC3D08800D40061 /* Swizzling.swift */; };
+		8AB9DBD92BC3D12D00D40061 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBD82BC3D12D00D40061 /* Runtime.swift */; };
+		8AB9DBDD2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBDC2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift */; };
+		8AB9DBDF2BC3D1F600D40061 /* UINavigationController+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBDE2BC3D1F600D40061 /* UINavigationController+Swizzling.swift */; };
+		8AB9DBE12BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBE02BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift */; };
+		8AB9DBE32BC3D77700D40061 /* CRToolBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBE22BC3D77700D40061 /* CRToolBarButton.swift */; };
 		8AC7498E2BBD637800F02119 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7498D2BBD637800F02119 /* UIView+.swift */; };
-		8AC749902BBD63AC00F02119 /* CRNavigationController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7498F2BBD63AC00F02119 /* CRNavigationController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,9 +27,14 @@
 		8A77C9992BBBD99300C3C07E /* NavTabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavTabApp.swift; sourceTree = "<group>"; };
 		8A77C99D2BBBD99400C3C07E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A77C9A02BBBD99400C3C07E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8A77C9A72BBBD9E800C3C07E /* CRNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRNavigationController.swift; sourceTree = "<group>"; };
+		8AB9DBD42BC3D06F00D40061 /* Appearance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appearance.swift; sourceTree = "<group>"; };
+		8AB9DBD62BC3D08800D40061 /* Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzling.swift; sourceTree = "<group>"; };
+		8AB9DBD82BC3D12D00D40061 /* Runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
+		8AB9DBDC2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Swizzling.swift"; sourceTree = "<group>"; };
+		8AB9DBDE2BC3D1F600D40061 /* UINavigationController+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Swizzling.swift"; sourceTree = "<group>"; };
+		8AB9DBE02BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Figma+Swizzling.swift"; sourceTree = "<group>"; };
+		8AB9DBE22BC3D77700D40061 /* CRToolBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRToolBarButton.swift; sourceTree = "<group>"; };
 		8AC7498D2BBD637800F02119 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
-		8AC7498F2BBD63AC00F02119 /* CRNavigationController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRNavigationController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -30,6 +42,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB9DBD02BC3CC6400D40061 /* NavigationBackport in Frameworks */,
+				8AB9DBD32BC3CC7100D40061 /* InterposeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,10 +69,11 @@
 		8A77C9982BBBD99300C3C07E /* NavTab */ = {
 			isa = PBXGroup;
 			children = (
-				8AC7498D2BBD637800F02119 /* UIView+.swift */,
+				8AB9DBDA2BC3D13300D40061 /* Utils */,
 				8A77C9992BBBD99300C3C07E /* NavTabApp.swift */,
-				8A77C9A72BBBD9E800C3C07E /* CRNavigationController.swift */,
-				8AC7498F2BBD63AC00F02119 /* CRNavigationController2.swift */,
+				8AB9DBD42BC3D06F00D40061 /* Appearance.swift */,
+				8AB9DBE22BC3D77700D40061 /* CRToolBarButton.swift */,
+				8AB9DBDB2BC3D1B900D40061 /* Swizzling */,
 				8A77C99D2BBBD99400C3C07E /* Assets.xcassets */,
 				8A77C99F2BBBD99400C3C07E /* Preview Content */,
 			);
@@ -71,6 +86,26 @@
 				8A77C9A02BBBD99400C3C07E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8AB9DBDA2BC3D13300D40061 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8AB9DBD82BC3D12D00D40061 /* Runtime.swift */,
+				8AC7498D2BBD637800F02119 /* UIView+.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8AB9DBDB2BC3D1B900D40061 /* Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				8AB9DBD62BC3D08800D40061 /* Swizzling.swift */,
+				8AB9DBDC2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift */,
+				8AB9DBDE2BC3D1F600D40061 /* UINavigationController+Swizzling.swift */,
+				8AB9DBE02BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift */,
+			);
+			path = Swizzling;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +124,10 @@
 			dependencies = (
 			);
 			name = NavTab;
+			packageProductDependencies = (
+				8AB9DBCF2BC3CC6400D40061 /* NavigationBackport */,
+				8AB9DBD22BC3CC7100D40061 /* InterposeKit */,
+			);
 			productName = NavTab;
 			productReference = 8A77C9962BBBD99300C3C07E /* NavTab.app */;
 			productType = "com.apple.product-type.application";
@@ -117,6 +156,10 @@
 				Base,
 			);
 			mainGroup = 8A77C98D2BBBD99300C3C07E;
+			packageReferences = (
+				8AB9DBCE2BC3CC6400D40061 /* XCRemoteSwiftPackageReference "NavigationBackport" */,
+				8AB9DBD12BC3CC7100D40061 /* XCRemoteSwiftPackageReference "InterposeKit" */,
+			);
 			productRefGroup = 8A77C9972BBBD99300C3C07E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,10 +186,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AB9DBE32BC3D77700D40061 /* CRToolBarButton.swift in Sources */,
 				8AC7498E2BBD637800F02119 /* UIView+.swift in Sources */,
 				8A77C99A2BBBD99300C3C07E /* NavTabApp.swift in Sources */,
-				8A77C9A82BBBD9E800C3C07E /* CRNavigationController.swift in Sources */,
-				8AC749902BBD63AC00F02119 /* CRNavigationController2.swift in Sources */,
+				8AB9DBE12BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift in Sources */,
+				8AB9DBD72BC3D08800D40061 /* Swizzling.swift in Sources */,
+				8AB9DBD92BC3D12D00D40061 /* Runtime.swift in Sources */,
+				8AB9DBDD2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift in Sources */,
+				8AB9DBD52BC3D06F00D40061 /* Appearance.swift in Sources */,
+				8AB9DBDF2BC3D1F600D40061 /* UINavigationController+Swizzling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +253,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -262,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -352,6 +400,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8AB9DBCE2BC3CC6400D40061 /* XCRemoteSwiftPackageReference "NavigationBackport" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/johnpatrickmorgan/NavigationBackport";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.2;
+			};
+		};
+		8AB9DBD12BC3CC7100D40061 /* XCRemoteSwiftPackageReference "InterposeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/baevra/InterposeKit";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8AB9DBCF2BC3CC6400D40061 /* NavigationBackport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB9DBCE2BC3CC6400D40061 /* XCRemoteSwiftPackageReference "NavigationBackport" */;
+			productName = NavigationBackport;
+		};
+		8AB9DBD22BC3CC7100D40061 /* InterposeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AB9DBD12BC3CC7100D40061 /* XCRemoteSwiftPackageReference "InterposeKit" */;
+			productName = InterposeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8A77C98E2BBBD99300C3C07E /* Project object */;
 }

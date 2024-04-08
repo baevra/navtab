@@ -1,0 +1,24 @@
+{
+  "originHash" : "9ea4bda349348d9efe21a212a4e41e97ae6c6412c572d747b4da5b77da80ef81",
+  "pins" : [
+    {
+      "identity" : "interposekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/baevra/InterposeKit",
+      "state" : {
+        "branch" : "master",
+        "revision" : "eea8b92223886008a62827b75b70b6fec9030800"
+      }
+    },
+    {
+      "identity" : "navigationbackport",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/johnpatrickmorgan/NavigationBackport",
+      "state" : {
+        "revision" : "add71ebc3cf71e43c662c69c4d7c1f2dc5dc3588",
+        "version" : "0.9.2"
+      }
+    }
+  ],
+  "version" : 3
+}
