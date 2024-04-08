@@ -8,14 +8,14 @@
 import UIKit
 
 func setupSwizzling() {
+  let isEnabled = true
+  let showMargins = true
   /// Изменяет позиционирование UINavigationBar по вертикали
-  setupUINavigationBarSwizzling()
+  setupUINavigationBarSwizzling(isEnabled: isEnabled)
   /// Устанавливает вертикальный отступ для UINavigationBar
   /// Добавляет safe area для увеличенного навбара
-  setupUINavigationControllerSwizzling()
-
-  /// Сетка для проверки и сравнения верстки
-  setupUINavigationControllerFigmaSwizzling()
+  /// showMargins: Сетка для проверки и сравнения верстки
+  setupUINavigationControllerSwizzling(isEnabled: isEnabled, showMargins: showMargins)
 }
 
 

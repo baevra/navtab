@@ -16,8 +16,7 @@
 		8AB9DBD72BC3D08800D40061 /* Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBD62BC3D08800D40061 /* Swizzling.swift */; };
 		8AB9DBD92BC3D12D00D40061 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBD82BC3D12D00D40061 /* Runtime.swift */; };
 		8AB9DBDD2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBDC2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift */; };
-		8AB9DBDF2BC3D1F600D40061 /* UINavigationController+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBDE2BC3D1F600D40061 /* UINavigationController+Swizzling.swift */; };
-		8AB9DBE12BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBE02BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift */; };
+		8AB9DBE12BC3D66A00D40061 /* UINavigationController+Swizzling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBE02BC3D66A00D40061 /* UINavigationController+Swizzling.swift */; };
 		8AB9DBE32BC3D77700D40061 /* CRToolBarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AB9DBE22BC3D77700D40061 /* CRToolBarButton.swift */; };
 		8AC7498E2BBD637800F02119 /* UIView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AC7498D2BBD637800F02119 /* UIView+.swift */; };
 /* End PBXBuildFile section */
@@ -31,8 +30,7 @@
 		8AB9DBD62BC3D08800D40061 /* Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swizzling.swift; sourceTree = "<group>"; };
 		8AB9DBD82BC3D12D00D40061 /* Runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
 		8AB9DBDC2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationBar+Swizzling.swift"; sourceTree = "<group>"; };
-		8AB9DBDE2BC3D1F600D40061 /* UINavigationController+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Swizzling.swift"; sourceTree = "<group>"; };
-		8AB9DBE02BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Figma+Swizzling.swift"; sourceTree = "<group>"; };
+		8AB9DBE02BC3D66A00D40061 /* UINavigationController+Swizzling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Swizzling.swift"; sourceTree = "<group>"; };
 		8AB9DBE22BC3D77700D40061 /* CRToolBarButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRToolBarButton.swift; sourceTree = "<group>"; };
 		8AC7498D2BBD637800F02119 /* UIView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,8 +100,7 @@
 			children = (
 				8AB9DBD62BC3D08800D40061 /* Swizzling.swift */,
 				8AB9DBDC2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift */,
-				8AB9DBDE2BC3D1F600D40061 /* UINavigationController+Swizzling.swift */,
-				8AB9DBE02BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift */,
+				8AB9DBE02BC3D66A00D40061 /* UINavigationController+Swizzling.swift */,
 			);
 			path = Swizzling;
 			sourceTree = "<group>";
@@ -189,12 +186,11 @@
 				8AB9DBE32BC3D77700D40061 /* CRToolBarButton.swift in Sources */,
 				8AC7498E2BBD637800F02119 /* UIView+.swift in Sources */,
 				8A77C99A2BBBD99300C3C07E /* NavTabApp.swift in Sources */,
-				8AB9DBE12BC3D66A00D40061 /* UINavigationController+Figma+Swizzling.swift in Sources */,
+				8AB9DBE12BC3D66A00D40061 /* UINavigationController+Swizzling.swift in Sources */,
 				8AB9DBD72BC3D08800D40061 /* Swizzling.swift in Sources */,
 				8AB9DBD92BC3D12D00D40061 /* Runtime.swift in Sources */,
 				8AB9DBDD2BC3D1CB00D40061 /* UINavigationBar+Swizzling.swift in Sources */,
 				8AB9DBD52BC3D06F00D40061 /* Appearance.swift in Sources */,
-				8AB9DBDF2BC3D1F600D40061 /* UINavigationController+Swizzling.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
